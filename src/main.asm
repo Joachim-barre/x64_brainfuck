@@ -1,3 +1,5 @@
+section .note.GNU-stack noalloc noexec nowrite progbits
+
 section .data
 	arg_error db "This program only takes one argument", 10, 0
 	usage db "Usage : prog [source]", 10, 0
