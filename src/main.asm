@@ -1,6 +1,6 @@
 section .data
 	arg_error db "This program only takes one argument", 10, 0
-	usage db "Usage : prog [source]"
+	usage db "Usage : prog [source]", 10, 0
 
 section .text
 	global main
